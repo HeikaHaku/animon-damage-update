@@ -1,0 +1,31 @@
+{
+  "id": "animon-damage-update",
+  "name": "animon-damage-update",
+  "title": "Animon Damage Update",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "esmodules": [
+    "animon-damage-update.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "animon",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.0.0"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "HeikaHaku",
+      "email": "admin@omnious.org",
+      "discord": "omnix"
+    }
+  ]
+}
